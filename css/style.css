@@ -188,28 +188,41 @@ html {
   }
   
   .w-icon-slider-right:before {
-    content: "î˜€";
-  }
-  
-  .w-icon-slider-left:before {
-    content: "î˜";
-  }
-  
-  .w-icon-nav-menu:before {
-    content: "î˜‚";
-  }
-  
-  .w-icon-arrow-down:before, .w-icon-dropdown-toggle:before {
-    content: "î˜ƒ";
-  }
-  
-  .w-icon-file-upload-remove:before {
-    content: "î¤€";
-  }
-  
-  .w-icon-file-upload-icon:before {
-    content: "î¤ƒ";
-  }
+    content: "\f105"; /* Font Awesome "chevron-right" icon */
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+}
+
+.w-icon-slider-left:before {
+    content: "\f104"; /* Font Awesome "chevron-left" icon */
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+}
+
+.w-icon-nav-menu:before {
+    content: "\f0c9"; /* Font Awesome "bars" (hamburger menu) icon */
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+}
+
+.w-icon-arrow-down:before, 
+.w-icon-dropdown-toggle:before {
+    content: "\f078"; /* Font Awesome "chevron-down" icon */
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+}
+
+.w-icon-file-upload-remove:before {
+    content: "\f057"; /* Font Awesome "times-circle" (remove) icon */
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+}
+
+.w-icon-file-upload-icon:before {
+    content: "\f093"; /* Font Awesome "upload" icon */
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+}
   
   * {
     box-sizing: border-box;
