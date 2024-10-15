@@ -3032,3 +3032,13 @@ html {
       font-size: 38px;
     }
   }
+
+
+  .help {
+    margin: 10px;
+    background-color: var(--pinkdarker);
+  }
+
+  .help a {
+    color: white;
+  }
